@@ -37,6 +37,9 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'Data Pendidikan', 'url' => ['/pendidikan']],
+        ['label' => 'Data Pekerjaan', 'url' => ['/pekerjaan']],
+        ['label' => 'Data Kat. Family', 'url' => ['/family-kat']],
         ['label' => 'Anggota', 'url' => ['/anggota']],
         ['label' => 'Family', 'url' => ['/family']],
         ['label' => 'Kelola Pembayaran', 'url' => ['/bayar']],
