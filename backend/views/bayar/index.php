@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel backend\models\BayarSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Bayars';
+$this->title = 'Data Pembayaran';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="bayar-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Bayar', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('+ Bayar', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
